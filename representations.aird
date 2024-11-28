@@ -50,7 +50,7 @@
     </ownedViews>
     <ownedViews xmi:type="viewpoint:DView" uid="_2j1CoKWWEe-PgN2Ya9Geow">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Requirements']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_2j2QwKWWEe-PgN2Ya9Geow" name="Requirements DiagramFR" repPath="#_2j1psKWWEe-PgN2Ya9Geow" changeId="1732543575661">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_2j2QwKWWEe-PgN2Ya9Geow" name="Requirements DiagramFR" repPath="#_2j1psKWWEe-PgN2Ya9Geow" changeId="1732757987243">
         <description xmi:type="description_2:DiagramDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Requirements']/@ownedRepresentations[name='SysADL.Requirements.Main']"/>
         <target xmi:type="sysadl:Model" href="Main.sysadl#/"/>
       </ownedRepresentationDescriptors>
@@ -723,17 +723,17 @@
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_-321UKe6Ee-PgN2Ya9Geow" type="4001" element="_-3wHoKe6Ee-PgN2Ya9Geow" source="_QPDHcKe3Ee-PgN2Ya9Geow" target="_xpCVgKe4Ee-PgN2Ya9Geow">
           <children xmi:type="notation:Node" xmi:id="_-321VKe6Ee-PgN2Ya9Geow" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-321Vae6Ee-PgN2Ya9Geow" x="-101"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-321Vae6Ee-PgN2Ya9Geow" x="-13" y="1"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_-33cYKe6Ee-PgN2Ya9Geow" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-33cYae6Ee-PgN2Ya9Geow" x="-17"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-33cYae6Ee-PgN2Ya9Geow" x="-7" y="2"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_-33cYqe6Ee-PgN2Ya9Geow" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-33cY6e6Ee-PgN2Ya9Geow" x="-136" y="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-33cY6e6Ee-PgN2Ya9Geow" x="4" y="-1"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_-321Uae6Ee-PgN2Ya9Geow"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_-321Uqe6Ee-PgN2Ya9Geow" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-321U6e6Ee-PgN2Ya9Geow" points="[0, 0, 169, -234]$[23, 0, 192, -234]$[29, 240, 198, 6]$[0, 240, 169, 6]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-321U6e6Ee-PgN2Ya9Geow" points="[0, 0, 169, -234]$[35, 0, 204, -234]$[35, 12, 204, -222]$[35, 72, 204, -162]$[35, 240, 204, 6]$[0, 240, 169, 6]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-33cZKe6Ee-PgN2Ya9Geow" id="(1.0,0.39669421487603307)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-33cZae6Ee-PgN2Ya9Geow" id="(0.0,0.0)"/>
         </edges>
@@ -957,7 +957,7 @@
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Requirements']/@ownedRepresentations[name='SysADL.Requirements.Main']/@defaultLayer/@containerMappings[name='SysADL.Req.Self']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_2:ContainerMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Requirements']/@ownedRepresentations[name='SysADL.Requirements.Main']/@defaultLayer/@containerMappings[name='SysADL.Req.Self']"/>
-      <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_CWFzkqe3Ee-PgN2Ya9Geow" name="&lt;&lt;requirement>>&#xA;newElement" incomingEdges="__gOkQKe3Ee-PgN2Ya9Geow _JoaVNKe4Ee-PgN2Ya9Geow _LasLKKe4Ee-PgN2Ya9Geow _NVS2rKe4Ee-PgN2Ya9Geow _P9WeDqe4Ee-PgN2Ya9Geow">
+      <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_CWFzkqe3Ee-PgN2Ya9Geow" name="&lt;&lt;requirement>>&#xA;SESControlDisplayFR" incomingEdges="__gOkQKe3Ee-PgN2Ya9Geow _JoaVNKe4Ee-PgN2Ya9Geow _LasLKKe4Ee-PgN2Ya9Geow _NVS2rKe4Ee-PgN2Ya9Geow _P9WeDqe4Ee-PgN2Ya9Geow">
         <target xmi:type="sysadl:Requirement" href="Main.sysadl#1"/>
         <semanticElements xmi:type="sysadl:Requirement" href="Main.sysadl#1"/>
         <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_CWI24Ke3Ee-PgN2Ya9Geow" showIcon="false" borderSize="1" borderSizeComputationExpression="1">
@@ -1068,7 +1068,7 @@
           </ownedStyle>
           <actualMapping xmi:type="description_2:NodeMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Requirements']/@ownedRepresentations[name='SysADL.Requirements.Main']/@defaultLayer/@containerMappings[name='SysADL.Req.Self']/@subContainerMappings[name='SysADL.Req.Requirement']/@subNodeMappings[name='SysADL.Red.ID']"/>
         </ownedElements>
-        <ownedElements xmi:type="diagram:DNodeListElement" uid="_QO-O9Ke3Ee-PgN2Ya9Geow" name="text=O sistema deve ajustar o empuxo dos motores para o pouso seguro do primeiro estágio.">
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_QO-O9Ke3Ee-PgN2Ya9Geow" name="text=O sistema deve permitir o ajuste seguro das configurações de empuxo dos motores.">
           <target xmi:type="sysadl:Requirement" href="Main.sysadl#1.4"/>
           <semanticElements xmi:type="sysadl:Requirement" href="Main.sysadl#1.4"/>
           <ownedStyle xmi:type="diagram:Dot" uid="_QO-O9ae3Ee-PgN2Ya9Geow" showIcon="false" labelPosition="node">
