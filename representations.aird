@@ -11,6 +11,21 @@
     </ownedViews>
     <ownedViews xmi:type="viewpoint:DView" uid="_2hoDMKWWEe-PgN2Ya9Geow">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_5zXdALY6Ee-HgqyDqx5ILA" name="new Block Definition Diagram (Behavior BDD)" repPath="#_5zNsALY6Ee-HgqyDqx5ILA" changeId="1734362075357">
+        <description xmi:type="description_2:DiagramDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='BDD.Behavior']"/>
+        <target xmi:type="sysadl:Package" href="Main.sysadl#//@packages[name='SESsystemComponent']"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_REjZoLY9Ee-HgqyDqx5ILA" name="Activity Diagram" repPath="#_REiykLY9Ee-HgqyDqx5ILA" changeId="1734360061542">
+        <description xmi:type="description_2:DiagramDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='SysADL.AD']"/>
+        <target xmi:type="sysadl:ActivityBody" href="Main.sysadl#//@packages[name='SESsystemComponent']/@definitions[name='SensorDataProcessing']/@body"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_n71agLu7Ee-kaNaoP7svfA" name="Parametric Diagram" repPath="#_n70zcLu7Ee-kaNaoP7svfA" changeId="1734360061542">
+        <description xmi:type="description_2:DiagramDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='Parametric']"/>
+        <target xmi:type="sysadl:ActivityDef" href="Main.sysadl#//@packages[name='SESsystemComponent']/@definitions[name='SensorDataProcessing']"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_6X6UQLu7Ee-kaNaoP7svfA" name="Parametric Diagram" repPath="#_6X5GILu7Ee-kaNaoP7svfA" changeId="1734360280034">
+        <description xmi:type="description_2:DiagramDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='Parametric']"/>
+      </ownedRepresentationDescriptors>
     </ownedViews>
     <ownedViews xmi:type="viewpoint:DView" uid="_2hwmEKWWEe-PgN2Ya9Geow">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Executable']"/>
@@ -4590,5 +4605,278 @@
     <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_z7dxoKsaEe-XgPMQ4dtJVg"/>
     <activatedLayers xmi:type="description_2:Layer" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.IBD']/@defaultLayer"/>
     <target xmi:type="sysadl:Configuration" href="Main.sysadl#//@packages[name='SESsystemComponent']/@definitions[name='SESsystem']/@composite"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_5zNsALY6Ee-HgqyDqx5ILA">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_5z7dsLY6Ee-HgqyDqx5ILA" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_5z7dsbY6Ee-HgqyDqx5ILA" type="Sirius" element="_5zNsALY6Ee-HgqyDqx5ILA" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_50XikLY6Ee-HgqyDqx5ILA" type="2002" element="_5z8r0LY6Ee-HgqyDqx5ILA">
+          <children xmi:type="notation:Node" xmi:id="_50dpMLY6Ee-HgqyDqx5ILA" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_50e3ULY6Ee-HgqyDqx5ILA" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_bBCGULY8Ee-HgqyDqx5ILA" type="3009" element="_a-E48LY8Ee-HgqyDqx5ILA">
+              <children xmi:type="notation:Node" xmi:id="_bBDUcLY8Ee-HgqyDqx5ILA" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_bBEikLY8Ee-HgqyDqx5ILA" type="7003">
+                <children xmi:type="notation:Node" xmi:id="_bBVoULY8Ee-HgqyDqx5ILA" type="3010" element="_a_JP8bY8Ee-HgqyDqx5ILA">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_bBVoUbY8Ee-HgqyDqx5ILA" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_bBVoUrY8Ee-HgqyDqx5ILA"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_Ij3VQLu_Ee-kaNaoP7svfA" type="3010" element="_Ii8IMru_Ee-kaNaoP7svfA">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_Ij3VQbu_Ee-kaNaoP7svfA" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_Ij3VQru_Ee-kaNaoP7svfA"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_1ZptsLu_Ee-kaNaoP7svfA" type="3010" element="_1ZadI7u_Ee-kaNaoP7svfA">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_1Zptsbu_Ee-kaNaoP7svfA" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_1Zptsru_Ee-kaNaoP7svfA"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_QmtU4LvAEe-kaNaoP7svfA" type="3010" element="_QmcPIbvAEe-kaNaoP7svfA">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_Qmt78LvAEe-kaNaoP7svfA" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_Qmt78bvAEe-kaNaoP7svfA"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_bBEikbY8Ee-HgqyDqx5ILA"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_bBEikrY8Ee-HgqyDqx5ILA"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_bBCtYLY8Ee-HgqyDqx5ILA" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bBCtYbY8Ee-HgqyDqx5ILA" x="367" y="30" width="387" height="135"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_eXqLALu6Ee-kaNaoP7svfA" type="3009" element="_eWXxkLu6Ee-kaNaoP7svfA">
+              <children xmi:type="notation:Node" xmi:id="_eXz8ALu6Ee-kaNaoP7svfA" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_eX1KILu6Ee-kaNaoP7svfA" type="7003">
+                <children xmi:type="notation:Node" xmi:id="_eX3mYLu6Ee-kaNaoP7svfA" type="3010" element="_eXdWsLu6Ee-kaNaoP7svfA">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_eX3mYbu6Ee-kaNaoP7svfA" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_eX3mYru6Ee-kaNaoP7svfA"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_P828ELu_Ee-kaNaoP7svfA" type="3010" element="_P8ehkbu_Ee-kaNaoP7svfA">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_P828Ebu_Ee-kaNaoP7svfA" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_P828Eru_Ee-kaNaoP7svfA"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_aJJw8Lu_Ee-kaNaoP7svfA" type="3010" element="_aIxWcLu_Ee-kaNaoP7svfA">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_aJJw8bu_Ee-kaNaoP7svfA" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_aJJw8ru_Ee-kaNaoP7svfA"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_eX1KIbu6Ee-kaNaoP7svfA"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_eX1KIru6Ee-kaNaoP7svfA"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_eXqLAbu6Ee-kaNaoP7svfA" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eXqLAru6Ee-kaNaoP7svfA" x="367" y="330" width="387" height="111"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_50e3UbY6Ee-HgqyDqx5ILA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_50e3UrY6Ee-HgqyDqx5ILA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_50XikbY6Ee-HgqyDqx5ILA" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_50XikrY6Ee-HgqyDqx5ILA" x="-60" y="12" width="1143" height="519"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_5z7dsrY6Ee-HgqyDqx5ILA"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_50O_sLY6Ee-HgqyDqx5ILA" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_50PmwLY6Ee-HgqyDqx5ILA"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_5z8r0LY6Ee-HgqyDqx5ILA" name="bdd [Behavior] SESsystemComponent">
+      <target xmi:type="sysadl:Package" href="Main.sysadl#//@packages[name='SESsystemComponent']"/>
+      <semanticElements xmi:type="sysadl:Package" href="Main.sysadl#//@packages[name='SESsystemComponent']"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_50KuQLY6Ee-HgqyDqx5ILA" showIcon="false" labelAlignment="LEFT" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='BDD.Behavior']/@defaultLayer/@containerMappings[name='BDD.Behavior.Self']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_2:ContainerMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='BDD.Behavior']/@defaultLayer/@containerMappings[name='BDD.Behavior.Self']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_a-E48LY8Ee-HgqyDqx5ILA" name="&lt;&lt;activity>>&#xA;SensorDataProcessing">
+        <target xmi:type="sysadl:ActivityDef" href="Main.sysadl#//@packages[name='SESsystemComponent']/@definitions[name='SensorDataProcessing']"/>
+        <semanticElements xmi:type="sysadl:ActivityDef" href="Main.sysadl#//@packages[name='SESsystemComponent']/@definitions[name='SensorDataProcessing']"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_a-yqoLY8Ee-HgqyDqx5ILA" iconPath="/org.sysadl.viewpoints/icons/Activity.gif" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="GradientTopToBottom" foregroundColor="126,177,254">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='BDD.Behavior']/@defaultLayer/@containerMappings[name='BDD.Behavior.Self']/@subContainerMappings[name='BDD.Activity']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_2:ContainerMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='BDD.Behavior']/@defaultLayer/@containerMappings[name='BDD.Behavior.Self']/@subContainerMappings[name='BDD.Activity']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_a_JP8bY8Ee-HgqyDqx5ILA" name="Open Activity Diagram">
+          <target xmi:type="sysadl:ActivityBody" href="Main.sysadl#//@packages[name='SESsystemComponent']/@definitions[name='SensorDataProcessing']/@body"/>
+          <semanticElements xmi:type="sysadl:ActivityBody" href="Main.sysadl#//@packages[name='SESsystemComponent']/@definitions[name='SensorDataProcessing']/@body"/>
+          <ownedStyle xmi:type="diagram:Dot" uid="_a_QksLY8Ee-HgqyDqx5ILA" showIcon="false">
+            <description xmi:type="style:DotDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='BDD.Behavior']/@defaultLayer/@containerMappings[name='BDD.Behavior.Self']/@subContainerMappings[name='BDD.Activity']/@subNodeMappings[name='BDD.Activity.Body']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_2:NodeMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='BDD.Behavior']/@defaultLayer/@containerMappings[name='BDD.Behavior.Self']/@subContainerMappings[name='BDD.Activity']/@subNodeMappings[name='BDD.Activity.Body']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_Ii8IMru_Ee-kaNaoP7svfA" name="in RawFuelSensorData : PropellantLevelType">
+          <target xmi:type="sysadl:Pin" href="Main.sysadl#//@packages[name='SESsystemComponent']/@definitions[name='SensorDataProcessing']/@inParameters[name='RawFuelSensorData']"/>
+          <semanticElements xmi:type="sysadl:Pin" href="Main.sysadl#//@packages[name='SESsystemComponent']/@definitions[name='SensorDataProcessing']/@inParameters[name='RawFuelSensorData']"/>
+          <ownedStyle xmi:type="diagram:Dot" uid="_IjBAsLu_Ee-kaNaoP7svfA" showIcon="false" labelPosition="node">
+            <description xmi:type="style:DotDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='BDD.Behavior']/@defaultLayer/@containerMappings[name='BDD.Behavior.Self']/@subContainerMappings[name='BDD.Activity']/@subNodeMappings[name='BDD.Activity.InParams']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_2:NodeMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='BDD.Behavior']/@defaultLayer/@containerMappings[name='BDD.Behavior.Self']/@subContainerMappings[name='BDD.Activity']/@subNodeMappings[name='BDD.Activity.InParams']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_1ZadI7u_Ee-kaNaoP7svfA" name="in RawPressureSensorData : PressureType">
+          <target xmi:type="sysadl:Pin" href="Main.sysadl#//@packages[name='SESsystemComponent']/@definitions[name='SensorDataProcessing']/@inParameters[name='RawPressureSensorData']"/>
+          <semanticElements xmi:type="sysadl:Pin" href="Main.sysadl#//@packages[name='SESsystemComponent']/@definitions[name='SensorDataProcessing']/@inParameters[name='RawPressureSensorData']"/>
+          <ownedStyle xmi:type="diagram:Dot" uid="_1ZbEMLu_Ee-kaNaoP7svfA" showIcon="false" labelPosition="node">
+            <description xmi:type="style:DotDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='BDD.Behavior']/@defaultLayer/@containerMappings[name='BDD.Behavior.Self']/@subContainerMappings[name='BDD.Activity']/@subNodeMappings[name='BDD.Activity.InParams']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_2:NodeMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='BDD.Behavior']/@defaultLayer/@containerMappings[name='BDD.Behavior.Self']/@subContainerMappings[name='BDD.Activity']/@subNodeMappings[name='BDD.Activity.InParams']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_QmcPIbvAEe-kaNaoP7svfA" name="in RawAltitudeSensorData : AltitudeType">
+          <target xmi:type="sysadl:Pin" href="Main.sysadl#//@packages[name='SESsystemComponent']/@definitions[name='SensorDataProcessing']/@inParameters[name='RawAltitudeSensorData']"/>
+          <semanticElements xmi:type="sysadl:Pin" href="Main.sysadl#//@packages[name='SESsystemComponent']/@definitions[name='SensorDataProcessing']/@inParameters[name='RawAltitudeSensorData']"/>
+          <ownedStyle xmi:type="diagram:Dot" uid="_QmcPIrvAEe-kaNaoP7svfA" showIcon="false" labelPosition="node">
+            <description xmi:type="style:DotDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='BDD.Behavior']/@defaultLayer/@containerMappings[name='BDD.Behavior.Self']/@subContainerMappings[name='BDD.Activity']/@subNodeMappings[name='BDD.Activity.InParams']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_2:NodeMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='BDD.Behavior']/@defaultLayer/@containerMappings[name='BDD.Behavior.Self']/@subContainerMappings[name='BDD.Activity']/@subNodeMappings[name='BDD.Activity.InParams']"/>
+        </ownedElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_eWXxkLu6Ee-kaNaoP7svfA" name="&lt;&lt;activity>>&#xA;RocketLaunchBehavior">
+        <target xmi:type="sysadl:ActivityDef" href="Main.sysadl#//@packages[name='SESsystemComponent']/@definitions[name='RocketLaunchBehavior']"/>
+        <semanticElements xmi:type="sysadl:ActivityDef" href="Main.sysadl#//@packages[name='SESsystemComponent']/@definitions[name='RocketLaunchBehavior']"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_eWyBQLu6Ee-kaNaoP7svfA" iconPath="/org.sysadl.viewpoints/icons/Activity.gif" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="GradientTopToBottom" foregroundColor="126,177,254">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='BDD.Behavior']/@defaultLayer/@containerMappings[name='BDD.Behavior.Self']/@subContainerMappings[name='BDD.Activity']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_2:ContainerMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='BDD.Behavior']/@defaultLayer/@containerMappings[name='BDD.Behavior.Self']/@subContainerMappings[name='BDD.Activity']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_eXdWsLu6Ee-kaNaoP7svfA" name="Open Activity Diagram">
+          <target xmi:type="sysadl:ActivityBody" href="Main.sysadl#//@packages[name='SESsystemComponent']/@definitions[name='RocketLaunchBehavior']/@body"/>
+          <semanticElements xmi:type="sysadl:ActivityBody" href="Main.sysadl#//@packages[name='SESsystemComponent']/@definitions[name='RocketLaunchBehavior']/@body"/>
+          <ownedStyle xmi:type="diagram:Dot" uid="_eXek0Lu6Ee-kaNaoP7svfA" showIcon="false">
+            <description xmi:type="style:DotDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='BDD.Behavior']/@defaultLayer/@containerMappings[name='BDD.Behavior.Self']/@subContainerMappings[name='BDD.Activity']/@subNodeMappings[name='BDD.Activity.Body']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_2:NodeMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='BDD.Behavior']/@defaultLayer/@containerMappings[name='BDD.Behavior.Self']/@subContainerMappings[name='BDD.Activity']/@subNodeMappings[name='BDD.Activity.Body']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_P8ehkbu_Ee-kaNaoP7svfA" name="in FuelLevelStage1 : PropellantLevelType">
+          <target xmi:type="sysadl:Pin" href="Main.sysadl#//@packages[name='SESsystemComponent']/@definitions[name='RocketLaunchBehavior']/@inParameters[name='FuelLevelStage1']"/>
+          <semanticElements xmi:type="sysadl:Pin" href="Main.sysadl#//@packages[name='SESsystemComponent']/@definitions[name='RocketLaunchBehavior']/@inParameters[name='FuelLevelStage1']"/>
+          <ownedStyle xmi:type="diagram:Dot" uid="_P8ehkru_Ee-kaNaoP7svfA" showIcon="false" labelPosition="node">
+            <description xmi:type="style:DotDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='BDD.Behavior']/@defaultLayer/@containerMappings[name='BDD.Behavior.Self']/@subContainerMappings[name='BDD.Activity']/@subNodeMappings[name='BDD.Activity.InParams']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_2:NodeMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='BDD.Behavior']/@defaultLayer/@containerMappings[name='BDD.Behavior.Self']/@subContainerMappings[name='BDD.Activity']/@subNodeMappings[name='BDD.Activity.InParams']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_aIxWcLu_Ee-kaNaoP7svfA" name="out StageStatus : CommandType">
+          <target xmi:type="sysadl:Pin" href="Main.sysadl#//@packages[name='SESsystemComponent']/@definitions[name='RocketLaunchBehavior']/@outParameters[name='StageStatus']"/>
+          <semanticElements xmi:type="sysadl:Pin" href="Main.sysadl#//@packages[name='SESsystemComponent']/@definitions[name='RocketLaunchBehavior']/@outParameters[name='StageStatus']"/>
+          <ownedStyle xmi:type="diagram:Dot" uid="_aI1A0Lu_Ee-kaNaoP7svfA" showIcon="false">
+            <description xmi:type="style:DotDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='BDD.Behavior']/@defaultLayer/@containerMappings[name='BDD.Behavior.Self']/@subContainerMappings[name='BDD.Activity']/@subNodeMappings[name='BDD.Activity.OutParams']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_2:NodeMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='BDD.Behavior']/@defaultLayer/@containerMappings[name='BDD.Behavior.Self']/@subContainerMappings[name='BDD.Activity']/@subNodeMappings[name='BDD.Activity.OutParams']"/>
+        </ownedElements>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <description xmi:type="description_2:DiagramDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='BDD.Behavior']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_5zTLkLY6Ee-HgqyDqx5ILA"/>
+    <activatedLayers xmi:type="description_2:Layer" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='BDD.Behavior']/@defaultLayer"/>
+    <target xmi:type="sysadl:Package" href="Main.sysadl#//@packages[name='SESsystemComponent']"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_REiykLY9Ee-HgqyDqx5ILA">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_REu_0LY9Ee-HgqyDqx5ILA" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_REu_0bY9Ee-HgqyDqx5ILA" type="Sirius" element="_REiykLY9Ee-HgqyDqx5ILA" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_RF6rkbY9Ee-HgqyDqx5ILA" type="2002" element="_REvm4LY9Ee-HgqyDqx5ILA">
+          <children xmi:type="notation:Node" xmi:id="_RF7SoLY9Ee-HgqyDqx5ILA" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_RF7SobY9Ee-HgqyDqx5ILA" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_RF7SorY9Ee-HgqyDqx5ILA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_RF7So7Y9Ee-HgqyDqx5ILA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_RF6rkrY9Ee-HgqyDqx5ILA" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RF6rk7Y9Ee-HgqyDqx5ILA" width="927" height="483"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_REu_0rY9Ee-HgqyDqx5ILA"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_RF6EgLY9Ee-HgqyDqx5ILA" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_RF6rkLY9Ee-HgqyDqx5ILA"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_REvm4LY9Ee-HgqyDqx5ILA" name="act [Behavior] SensorDataProcessing">
+      <target xmi:type="sysadl:ActivityBody" href="Main.sysadl#//@packages[name='SESsystemComponent']/@definitions[name='SensorDataProcessing']/@body"/>
+      <semanticElements xmi:type="sysadl:ActivityBody" href="Main.sysadl#//@packages[name='SESsystemComponent']/@definitions[name='SensorDataProcessing']/@body"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_RE70ILY9Ee-HgqyDqx5ILA" showIcon="false" labelAlignment="LEFT" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='SysADL.AD']/@defaultLayer/@containerMappings[name='ADNew.Self']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_2:ContainerMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='SysADL.AD']/@defaultLayer/@containerMappings[name='ADNew.Self']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_2:DiagramDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='SysADL.AD']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_REiykbY9Ee-HgqyDqx5ILA"/>
+    <activatedLayers xmi:type="description_2:Layer" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='SysADL.AD']/@defaultLayer"/>
+    <target xmi:type="sysadl:ActivityBody" href="Main.sysadl#//@packages[name='SESsystemComponent']/@definitions[name='SensorDataProcessing']/@body"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_n70zcLu7Ee-kaNaoP7svfA">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_n72BkLu7Ee-kaNaoP7svfA" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_n72Bkbu7Ee-kaNaoP7svfA" type="Sirius" element="_n70zcLu7Ee-kaNaoP7svfA" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_n766ELu7Ee-kaNaoP7svfA" type="2002" element="_n72ooLu7Ee-kaNaoP7svfA">
+          <children xmi:type="notation:Node" xmi:id="_n77hILu7Ee-kaNaoP7svfA" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_n77hIbu7Ee-kaNaoP7svfA" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_n77hIru7Ee-kaNaoP7svfA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_n77hI7u7Ee-kaNaoP7svfA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_n766Ebu7Ee-kaNaoP7svfA" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n766Eru7Ee-kaNaoP7svfA" width="747"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_n72Bkru7Ee-kaNaoP7svfA"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_n75r8Lu7Ee-kaNaoP7svfA" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_n76TALu7Ee-kaNaoP7svfA"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_n72ooLu7Ee-kaNaoP7svfA" name="param [Activity] SensorDataProcessing" width="60" height="40">
+      <target xmi:type="sysadl:ActivityDef" href="Main.sysadl#//@packages[name='SESsystemComponent']/@definitions[name='SensorDataProcessing']"/>
+      <semanticElements xmi:type="sysadl:ActivityDef" href="Main.sysadl#//@packages[name='SESsystemComponent']/@definitions[name='SensorDataProcessing']"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_n73PsLu7Ee-kaNaoP7svfA" showIcon="false" labelAlignment="LEFT" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='Parametric']/@defaultLayer/@containerMappings[name='Parametric.Activity.Self']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_2:ContainerMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='Parametric']/@defaultLayer/@containerMappings[name='Parametric.Activity.Self']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_2:DiagramDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='Parametric']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_n70zcbu7Ee-kaNaoP7svfA"/>
+    <activatedLayers xmi:type="description_2:Layer" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='Parametric']/@defaultLayer"/>
+    <target xmi:type="sysadl:ActivityDef" href="Main.sysadl#//@packages[name='SESsystemComponent']/@definitions[name='SensorDataProcessing']"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_6X5GILu7Ee-kaNaoP7svfA">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_6X67Ubu7Ee-kaNaoP7svfA" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_6X67Uru7Ee-kaNaoP7svfA" type="Sirius" element="_6X5GILu7Ee-kaNaoP7svfA" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_6YI9wLu7Ee-kaNaoP7svfA" type="2002" element="_6X7iYLu7Ee-kaNaoP7svfA">
+          <children xmi:type="notation:Node" xmi:id="_6YJk0Lu7Ee-kaNaoP7svfA" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_6YJk0bu7Ee-kaNaoP7svfA" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_6YJk0ru7Ee-kaNaoP7svfA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_6YJk07u7Ee-kaNaoP7svfA"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_6YJk1Lu7Ee-kaNaoP7svfA" type="3012" element="_6YCQEbu7Ee-kaNaoP7svfA">
+            <children xmi:type="notation:Node" xmi:id="_6YJk17u7Ee-kaNaoP7svfA" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_6YJk2Lu7Ee-kaNaoP7svfA" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_6YKL4Lu7Ee-kaNaoP7svfA" type="3003" element="_6YHIkLu7Ee-kaNaoP7svfA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_6YKL4bu7Ee-kaNaoP7svfA" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6YKL4ru7Ee-kaNaoP7svfA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_6YJk1bu7Ee-kaNaoP7svfA" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6YJk1ru7Ee-kaNaoP7svfA" x="-12" width="20" height="20"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_R4tsILu8Ee-kaNaoP7svfA" type="3012" element="_R2xLYru8Ee-kaNaoP7svfA">
+            <children xmi:type="notation:Node" xmi:id="_R4uTMLu8Ee-kaNaoP7svfA" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_R4uTMbu8Ee-kaNaoP7svfA" x="21" y="1"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_R4u6QLu8Ee-kaNaoP7svfA" type="3003" element="_R2xycLu8Ee-kaNaoP7svfA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_R4u6Qbu8Ee-kaNaoP7svfA" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_R4u6Qru8Ee-kaNaoP7svfA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_R4tsIbu8Ee-kaNaoP7svfA" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_R4tsIru8Ee-kaNaoP7svfA" x="-12" y="24" width="20" height="20"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_6YI9wbu7Ee-kaNaoP7svfA" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6YI9wru7Ee-kaNaoP7svfA"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_6X67U7u7Ee-kaNaoP7svfA"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_6YIWsLu7Ee-kaNaoP7svfA" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_6YIWsbu7Ee-kaNaoP7svfA"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_6X7iYLu7Ee-kaNaoP7svfA" name="param [Action] newAction" width="60" height="40">
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_6YCQEbu7Ee-kaNaoP7svfA" name=":PropellantLevelType" width="2" height="2">
+        <ownedStyle xmi:type="diagram:Square" uid="_6YHIkLu7Ee-kaNaoP7svfA" showIcon="false" labelAlignment="LEFT" labelPosition="node" color="113,171,203">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='Parametric']/@defaultLayer/@containerMappings[name='Parametric.Activity.Self']/@borderedNodeMappings[name='Parametric.ParamOut.Action']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_2:NodeMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='Parametric']/@defaultLayer/@containerMappings[name='Parametric.Activity.Self']/@borderedNodeMappings[name='Parametric.ParamOut.Action']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_R2xLYru8Ee-kaNaoP7svfA" name="newPin" width="2" height="2">
+        <ownedStyle xmi:type="diagram:Square" uid="_R2xycLu8Ee-kaNaoP7svfA" showIcon="false" labelAlignment="LEFT" color="140,140,232">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='Parametric']/@defaultLayer/@containerMappings[name='Parametric.Activity.Self']/@borderedNodeMappings[name='Parametric.ParamIn']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_2:NodeMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='Parametric']/@defaultLayer/@containerMappings[name='Parametric.Activity.Self']/@borderedNodeMappings[name='Parametric.ParamIn']"/>
+      </ownedBorderedNodes>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_6YBpALu7Ee-kaNaoP7svfA" showIcon="false" labelAlignment="LEFT" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='Parametric']/@defaultLayer/@containerMappings[name='Parametric.Activity.Self']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_2:ContainerMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='Parametric']/@defaultLayer/@containerMappings[name='Parametric.Activity.Self']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_2:DiagramDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='Parametric']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_6X5tMLu7Ee-kaNaoP7svfA"/>
+    <activatedLayers xmi:type="description_2:Layer" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='Parametric']/@defaultLayer"/>
   </diagram:DSemanticDiagram>
 </xmi:XMI>
